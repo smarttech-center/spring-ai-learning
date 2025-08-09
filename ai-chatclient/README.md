@@ -14,15 +14,15 @@
 - DeepSeek API 密钥
 
 ## 配置步骤
-1. 把DeepSeek API 密钥配置到文件 `src/main/resources/application.properties`：
+1. 把DeepSeek API 密钥配置到文件 `src/main/resources/application.properties`：如$env:spring.ai.openai.api-key = "your_deepseek_key"
 
-# 测试请求：
+#### 测试请求：
 curl -X POST http://localhost:8080/chat \
 -H "Content-Type: text/plain" \
 -d "帮我用Java写一个Hello World程序"
 
 
-# 测试响应：
+#### 测试响应：
 当然可以！以下是一个简单的 Java "Hello World" 程序：
 
 ```java
@@ -33,12 +33,12 @@ public class HelloWorld {
 }
 ```
 
-# 测试请求：
+#### 测试请求：
 curl -X POST http://localhost:8080/system-chat \
   -H "Content-Type: text/plain" \
   -d "你能帮我做什么"
   
-# 测试响应：
+#### 测试响应：
 当然可以！作为你的AI助手，我能帮你处理各种任务，以下是一些主要方向：
 
 ### 1. **信息查询**
