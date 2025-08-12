@@ -16,11 +16,4 @@ public class ChatConfig {
                 .defaultSystem("你是一个有帮助的AI助手")
                 .build();
     }
-
-    // 配置 ChatModel Bean（示例使用 OpenAI）
-//    @Bean
-//    public ChatModel chatModel() {
-//        OpenAiApi api = new OpenAiApi("https://api.deepseek.com/v1","sk-79ecf29fe42343919ee1be793c11b119");
-//        return new OpenAiChatModel(api);
-//    }
 }

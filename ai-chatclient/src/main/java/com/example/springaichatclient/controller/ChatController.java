@@ -38,12 +38,4 @@ public class ChatController {
                 .content();
     }
 
-//    // Example with function calling (requires additional setup)
-//    @PostMapping("/function-chat")
-//    public String functionChat(@RequestBody String userInput) {
-//        return functionChatClient.prompt() // 使用预配置的函数客户端
-//                .user(userInput)
-//                .call()
-//                .content();
-//    }
 }
